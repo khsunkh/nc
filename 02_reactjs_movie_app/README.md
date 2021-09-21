@@ -1,3 +1,2 @@
-# React JS Movie App
+# Movie App
 
-React JS Funcamentals Course from nomadCoders

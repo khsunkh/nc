@@ -1,5 +1,5 @@
 csle@vscode-hkim:~/Projects/nomadcoder$ npx create-react-app 02_reactjs_movie_app
-npx: installed 67 in 4.815s
+npx: installed 67 in 4.104s
 
 Creating a new React app in /home/csle/Projects/nomadcoder/02_reactjs_movie_app.
 
@@ -22,11 +22,11 @@ Installing react, react-dom, and react-scripts with cra-template...
 > ejs@2.7.4 postinstall /home/csle/Projects/nomadcoder/02_reactjs_movie_app/node_modules/ejs
 > node ./postinstall.js
 
++ react-dom@17.0.2
 + cra-template@1.1.2
 + react@17.0.2
 + react-scripts@4.0.3
-+ react-dom@17.0.2
-added 1907 packages from 708 contributors and audited 1910 packages in 86.233s
+added 1907 packages from 708 contributors and audited 1910 packages in 91.285s
 
 149 packages are looking for funding
   run `npm fund` for details
@@ -46,9 +46,9 @@ npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
 
 + web-vitals@1.1.2
 + @testing-library/jest-dom@5.14.1
-+ @testing-library/user-event@12.8.3
 + @testing-library/react@11.2.7
-added 43 packages from 86 contributors and audited 1953 packages in 18.938s
++ @testing-library/user-event@12.8.3
+added 43 packages from 86 contributors and audited 1953 packages in 30.509s
 
 150 packages are looking for funding
   run `npm fund` for details
@@ -66,7 +66,7 @@ npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
 npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules/fsevents):
 npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
 
-removed 1 package and audited 1952 packages in 12.727s
+removed 1 package and audited 1952 packages in 16.311s
 
 150 packages are looking for funding
   run `npm fund` for details
@@ -96,4 +96,3 @@ We suggest that you begin by typing:
   npm start
 
 Happy hacking!
-
