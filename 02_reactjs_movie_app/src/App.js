@@ -8,16 +8,19 @@ import React from 'react'
 // }
 const movieList = [
   {
+    id: 1,
     title: "Run",
     date: "2020",
     image: "https://upload.wikimedia.org/wikipedia/en/4/45/Run_poster.jpeg"
   },
   {
+    id: 2,
     title: "The One",
     date: "2001",
     image: "https://upload.wikimedia.org/wikipedia/en/f/fc/TheOnefilm.jpg"
   },
   {
+    id: 3,
     title: "The Show",
     date: "2017",
     image: "https://upload.wikimedia.org/wikipedia/en/8/88/The_Show_2017_poster.jpg"
@@ -29,7 +32,7 @@ function Movie( { title, date, image } ) {
     <div>
       <h1>Title: {title}</h1>
       <h2>Date : {date}</h2>
-      <img src={image} />
+      <img src={image} alt={title}/>
     </div>
   );
 }
@@ -46,11 +49,16 @@ function Movie( { title, date, image } ) {
 //   );
 // }
 
+function renderMovie(movie){
+  return <Movie key={movie.id} title={movie.title} date={movie.date} image={movie.image}/>;
+}
+
 function App() {
   return (
     <div>
       <h1>GHello!!!!!</h1>
-      {movieList.map( movie => <Movie title={movie.title} date={movie.date} image={movie.image}/> )}
+      {/* {movieList.map( movie => <Movie title={movie.title} date={movie.date} image={movie.image}/> )} */}
+      {movieList.map(renderMovie)}
     </div>
   );
 }
